@@ -1,0 +1,14 @@
+# Site settings
+title: Cooling with Insanity
+email: lajkika@gmail.com
+description: >
+  Recipes adapted for a slightly insane diet. Burnt biscotti, anyone?!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://cookinsanity.com" # the base hostname & protocol for your site
+twitter_username: lajkika
+github_username: lajkika
+github_repo: cookinsanity
+facebook_username: cookinsanity
+
+# Build settings
+markdown: kramdown
