@@ -11,6 +11,7 @@ github_username: lajkika
 github_repo: cookinsanity
 facebook_username: cookinsanity
 
+permalink: /recipes/:title.html
 paginate: 12
 
 # Build settings
