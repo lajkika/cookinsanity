@@ -2,8 +2,7 @@
 title: Cooking with Insanity
 author: Karina Arthur
 email: lajkika@gmail.com
-description: >
-  Recipes adapted for a slightly insane diet. Burnt biscotti, anyone?!
+description: "Recipes adapted for a slightly insane diet. Burnt biscotti, anyone?!"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://cookinsanity.com" # the base hostname & protocol for your site
 twitter_username: lajkika
