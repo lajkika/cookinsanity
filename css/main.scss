@@ -46,7 +46,19 @@ body {
   color: #5e5e5e;
 }
 
+// Sidebar.
+.sidebar {
+  .active {
+    background-color: #eee;
+  }
+}
 
+// Tile.
+.tile {
+  .tile-image {
+    max-width: 100px;
+  }
+}
 
 // Footer
 footer {

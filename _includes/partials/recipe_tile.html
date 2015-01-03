@@ -1,0 +1,15 @@
+<div class="media tile">
+  <a class="media-left"
+      href="{{ recipe.url | prepend: site.baseurl }}">
+    <img class="tile-image img-thumbnail"
+        src="{{ recipe.thumbnail | prepend: site.baseurl }}"
+    />
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading">
+      <a href="{{ recipe.url | prepend: site.baseurl }}">
+        {{ recipe.title }}</a>
+    </h4>
+    {{ recipe.excerpt }}
+  </div>
+</div>
