@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Hello, I'm Karina. I have a slightly insane diet for health reasons. On this
-website, I share recipes I've adapted and my adventures making them.
+Hello, I'm Karina. I have a slightly insane diet. On this website, I share
+recipes I've adapted and my adventures making them.
 
 A few years ago, I was diagnosed with [MS][]. After researching, particularly
 after reading the [Overcoming Multiple Sclerosis][] book, I changed my diet
