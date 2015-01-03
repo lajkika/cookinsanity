@@ -1,22 +1,38 @@
 ---
-layout: default
+layout: listing
 ---
-
 <header class="post-header">
   <h2 class="post-title">Welcome!</h2>
 </header>
-
 <p>
   Hello, I'm Karina. I have a slightly insane diet. On this website, I share
-  recipes I've adapted and my adventures making them.
+  recipes that I've adapted and my adventures making them.
 </p>
-
-<br />
-
-<div class="row">
-  {% for recipe in site.posts %}
-    <div class="col-sm-12 col-md-6">
-      {% include partials/recipe_tile.html %}
-    </div>
-  {% endfor %}
-</div>
+<section class="tile-listings">
+  <div class="row">
+    {% for recipe in paginator.posts %}
+      <div class="col-sm-12 col-md-6">
+        {% include partials/recipe_tile.html %}
+      </div>
+    {% endfor %}
+  </div>
+  {% if paginator.total_pages > 1 %}
+    <nav class="pagination">
+      <ul class="pager">
+        {% if paginator.previous_page %}
+          <li class="previous">
+            <a href="{{ paginator.previous_page_path }}">
+              <span aria-hidden="true">&larr;</span></a>
+          </li>
+        {% endif %}
+        {% if paginator.next_page %}
+          <li class="next">
+            <a href="{{ paginator.next_page_path }}">
+              Older Posts
+              <span aria-hidden="true">&rarr;</span></a>
+          </li>
+        {% endif %}
+      </ul>
+    </nav>
+  {% endif %}
+</section>

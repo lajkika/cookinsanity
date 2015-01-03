@@ -34,26 +34,26 @@
       <ul class="nav navbar-nav navbar-right">
         {% capture active %}{% if page.permalink == "/subscribe/" %}active{% endif %}{% endcapture %}
         <li class="visible-sm {{ active }}">
-          <a href="/subscribe" >
+          <a href="/subscribe/" >
             <i class="glyphicon glyphicon-envelope"></i>
             Subscribe
           </a>
         </li>
         <li class="hidden-sm {{ active }}">
-          <a href="/subscribe" >
+          <a href="/subscribe/" >
             <i class="glyphicon glyphicon-envelope"></i>
             Subscribe by Email
           </a>
         </li>
         {% capture active %}{% if page.permalink == "/contribute/" %}active{% endif %}{% endcapture %}
         <li class="visible-sm {{ active }}">
-          <a href="/contribute" >
+          <a href="/contribute/" >
             <i class="glyphicon glyphicon-edit"></i>
             Contribute
           </a>
         </li>
         <li class="hidden-sm {{ active }}">
-          <a href="/contribute" >
+          <a href="/contribute/" >
             <i class="glyphicon glyphicon-edit"></i>
             Contribute a Recipe
           </a>

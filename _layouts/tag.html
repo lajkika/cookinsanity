@@ -1,0 +1,24 @@
+---
+layout: listing
+---
+{% for tag_data in site.data.tags %}
+  {% if tag_data.value == page.tag %}
+    {% assign tag_posts = site.tags[page.tag] %}
+    <header class="post-header">
+      <h2 class="post-title">{{ tag_data.label }}</h2>
+    </header>
+    <section class="tile-listings">
+      <div class="row">
+        {% if tag_posts %}
+          {% for recipe in tag_posts %}
+            <div class="col-sm-12 col-md-6">
+              {% include partials/recipe_tile.html %}
+            </div>
+          {% endfor %}
+        {% else %}
+          <p>There are no {{ page.tag }} recipes.</p>
+        {% endif %}
+      </div>
+    </section>
+  {% endif %}
+{% endfor %}

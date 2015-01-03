@@ -20,5 +20,5 @@ to make food that I both crave and can actually eat.
 I hope you enjoy making some of the recipes. If you make something great or would like to share one of your own recipes, do [let me know :)][]
 
 [Overcoming Multiple Sclerosis]: http://www.overcomingmultiplesclerosis.org/book/
-[MS]: /ms/
+[MS]: http://www.mssociety.org.uk/what-is-ms
 [let me know :)]: /contribute
