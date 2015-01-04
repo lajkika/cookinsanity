@@ -5,8 +5,27 @@
   <!--
     Page title and description.
   -->
-  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  {% capture title %}{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}{% endcapture %}
+  <title>{{ title }}</title>
+  <meta property="og:title" content="{{ title }}" />
+  <meta name="twitter:title" content="{{ title }}" />
+  {% capture description %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+  <meta name="description" content="{{ description }}" />
+  <meta name="description" content="{{ description }}" />
+  <meta property="og:description" content="{{ description }}" />
+  <meta name="twitter:description" content="{{ description }}" />
+  <!--
+    Make embeds look good on Twitter, etc.
+  -->
+  {% capture image_url %}{% if page.thumbnail %}{{ page.thumbnail | prepend: site.baseurl | prepend: site.url }}{% else %}{{ "/gfx/cookinsanity.jpg" | prepend: site.baseurl | prepend: site.url }}{% endif %}{% endcapture %}
+  <meta property="og:image" content="{{ image_url }}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta name="twitter:image" content="{{ image_url }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@{{ site.twitter_username }}" />
+  <meta name="twitter:url" content="{{ site.url }}" />
   <!--
     Attribution.
   -->
