@@ -3,6 +3,18 @@
 ---
 @charset "utf-8";
 
+// Images.
+figure {
+  margin: 1em 0;
+  &:first-child {
+    margin-top: 0;
+  }
+  img {
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
 // Page.
 #page-header {
   @media (max-width: 767px) {
@@ -51,14 +63,6 @@
   }
 }
 
-// Page.
-.post-title {
-  margin-top: 10px;
-}
-.post-comments {
-  margin-top: 2em;
-}
-
 // Listings.
 .tile-listings {
   margin: 2em 0;
@@ -67,6 +71,33 @@
   margin-bottom: 10px;
   .tile-image {
     max-width: 120px;
+  }
+}
+
+// Page.
+.post-title {
+  margin-top: 10px;
+}
+.post-content {
+  margin: 1.5em 0;
+}
+.post-comments {
+  margin-top: 2em;
+}
+
+// Recipe page.
+.recipe-panel {
+  ul {
+    list-style: none;
+    padding: 0px;
+    li > strong {
+      display: block;
+      margin-top: 0.5em;
+      position: relative;
+    }
+    li:first-child > strong {
+      margin-top: auto;
+    }
   }
 }
 

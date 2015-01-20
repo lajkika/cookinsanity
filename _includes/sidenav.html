@@ -3,12 +3,27 @@
     Categories
   </h4>
   <ul class="nav nav-stacked">
+    {% for item in site.data.categories %}
+      {% assign posts = site.categories[item.value] %}
+      {% if posts %}
+        {% capture active %}{% if item.value == page.category %}active{% endif %}{% endcapture %}
+        <li class="{{ active }}">
+          <a href="/categories/{{ item.value }}/">
+            {{ item.label }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <h4>
+    Ingredients
+  </h4>
+  <ul class="list-inline">
     {% for tag in site.data.tags %}
       {% assign posts = site.tags[tag.value] %}
       {% if posts %}
         {% capture active %}{% if tag.value == page.tag %}active{% endif %}{% endcapture %}
         <li class="{{ active }}">
-          <a href="/tags/{{ tag.value }}/">
+          <a href="/ingredients/{{ tag.value }}/">
             {{ tag.label }}</a>
         </li>
       {% endif %}

@@ -1,8 +1,8 @@
-- value: baking
-  label: Baking
-- value: meals
-  label: Meals
-- value: snacks
-  label: Snacks
-- value: sweet
-  label: Sweet
+- value: almonds
+  label: Almonds
+- value: broccoli
+  label: Broccoli
+- value: courgette
+  label: Courgette
+- value: mushrooms
+  label: Mushrooms

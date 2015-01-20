@@ -3,8 +3,10 @@ layout: post
 title: Tarka Dahl
 author: lajkika
 thumbnail: /gfx/tarkadal.jpg
-tags:
+categories:
 - meals
+tags:
+- mushrooms
 ---
 
 This is a delicious dahl made with dried yellow split peas.

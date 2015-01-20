@@ -3,10 +3,12 @@ layout: post
 title: Almond Biscotti
 author: lajkika
 thumbnail: /gfx/almondbiscotti.jpg
-tags:
+categories:
 - baking
 - snacks
 - sweet
+tags:
+- almonds
 ---
 
 Preparing for Christmas and baking almond biscotti!
