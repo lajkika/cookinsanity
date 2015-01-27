@@ -14,6 +14,10 @@ layout: sidebar
             <div class="col-sm-12 col-md-6">
               {% include partials/recipe_tile.html %}
             </div>
+            {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+            {% if thecycle == 'even' %}
+              <div class="clearfix visible-md visible-lg"></div>
+            {% endif %}
           {% endfor %}
         {% else %}
           <p>There are no {{ page.category }} recipes.</p>
