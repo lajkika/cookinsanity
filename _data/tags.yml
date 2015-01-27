@@ -4,11 +4,11 @@
   label: Broccoli
 - value: courgette
   label: Courgette
+- value: egg-white
+  label: Egg white
 - value: mushrooms
   label: Mushrooms
-- value: Egg white
-  label: egg white
-- value: Tomato
-  label: tomato
-- value: Spinach
-  label: spinach
+- value: tomato
+  label: Tomato
+- value: spinach
+  label: Spinach
