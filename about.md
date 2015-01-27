@@ -17,6 +17,8 @@ not just for my MS! But the truth is that from time to time I *really*
 need to eat something *sweet*! So, this website is a chronicle of my efforts
 to make food that I both crave and can actually eat.
 
+Most of the recipes come from cookbooks and websites I tend to read on the lookout for some nice new food to try. I'll post my own (rather bad!) pictures with each recipe. 
+
 I hope you enjoy making some of the recipes. If you make something great or would like to share one of your own recipes, do [let me know :)][]
 
 [Overcoming Multiple Sclerosis]: http://www.overcomingmultiplesclerosis.org/book/
