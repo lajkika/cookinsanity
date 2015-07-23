@@ -14,8 +14,8 @@ tags:
 - mushrooms
 - potatoes
 - carrots
-- green beans
-- brussels sprouts
+- green-beans
+- sprouts
 recipe: |
   - 2 salmon fillets 
   - 2-3 medium to big potatoes or ca. 300 gr baby new potatoes
